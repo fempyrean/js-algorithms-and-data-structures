@@ -1,5 +1,5 @@
 const base = Number(process.argv[2]) || 10;
-const exponent = Number(process.argv[2]) || 10;
+const exponent = Number(process.argv[3]) || 10;
 
 /** Recursive and simple implementation of power */
 function power(base, exponent) {
